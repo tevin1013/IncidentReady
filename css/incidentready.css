@@ -527,7 +527,7 @@ u:hover {
     width: 80%;
   }
   .hero-dash {
-    height: .4em;
+    height: .3em;
   }
   .info-one-header-container2 h3 {
     min-width: 300px;
@@ -548,11 +548,15 @@ u:hover {
   }
   .info-one-header-container {
     flex-direction: column;
-    margin
+    justify-content: center;
+  }
+  .info-one-header-container2 {
+    justify-content: center;
   }
   .info-one-header-container2 h3 {
     font-size: 1.5em;
     text-align: center;
+    min-width: 255px;
   }
   .info-one-text1-container h4 {
     font-size: 1.5em;
@@ -567,7 +571,7 @@ u:hover {
   .hero-card {
     width: 90%;
     /* border-radius: 0; */
-    opacity: 70%;
+    opacity: 80%;
   }
   .customer-info-card-container {
     width: 90%;
@@ -624,13 +628,13 @@ u:hover {
 
 /* BULLET STATEMENT CSS START */
 
-/* .info-one-bullet-statments-container {
+.info-one-bullet-statments-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 250px;
-  border: 2px solid aqua;
+  height: 35vh;
+  /* border: 2px solid aqua; */
 }
 .bullet-statement-container {
   display: flex;
@@ -639,7 +643,7 @@ u:hover {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .bullet-statement {
   display: flex;
@@ -647,7 +651,7 @@ u:hover {
   align-items: center;
   width: 100%;
   height: 20%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 .bullet-image {
   display: flex;
@@ -656,9 +660,9 @@ u:hover {
   width: 10%;
   height: 100%;
   /* border: 2px solid red; */
-} */
-/* .bullet-image img {
-  height: 2em;
+}
+.bullet-image img {
+  height: 3em;
   width: auto;
 }
 .bullet-text {
@@ -667,7 +671,7 @@ u:hover {
   align-items: center;
   width: 90%;
   height: 100%;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
 }
 .bullet-text p {
   font-family: Poppins;
@@ -675,4 +679,4 @@ u:hover {
   color: black;
 } */
 
-/* BULLET STATEMENT CSS END */
+/* BULLET STATEMENT CSS END

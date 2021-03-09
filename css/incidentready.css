@@ -42,7 +42,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 37em;
+  height: 80vh;
   width: 100%;
   background-color: #A6E800;
   background: url("../images/power-image copy.jpg");
@@ -132,7 +132,7 @@ u:hover {
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 3.5em;
+  height: 6vh;
   /* background-color: azure; */
 }
 .hero-card-button-container button {
@@ -436,6 +436,18 @@ u:hover {
   color: white;
 }
 
+@media only screen and (min-width: 2560px) and (max-width: 2900px) {
+  body {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 2560px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
 @media only screen and (min-width: 950px) and (max-width: 1193px) {
   body {
     font-size: .8em;
@@ -449,8 +461,20 @@ u:hover {
   body {
     font-size: .6em;
   }
-  .purchase-button-container button  {
+  .purchase-button-container button {
     min-width: 136px;
+  }
+  .hero-card-header-container h1 {
+    font-size: 1.4rem;
+  }
+  .hero-card-subhead-container h2 {
+    font-size: 1.4rem;
+  }
+  .hero-card-button-container button {
+    font-size: 1rem;
+  }
+  .hero-dash {
+    height: .4em;
   }
 }
 
@@ -467,17 +491,103 @@ u:hover {
   .purchase-button-container button  {
     min-width: 109px;
   }
+  .hero-card-header-container h1 {
+    font-size: 1.4rem;
+  }
+  .hero-card-subhead-container h2 {
+    font-size: 1.4rem;
+  }
+  .hero-card-button-container button {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .hero-dash {
+    height: .4em;
+  }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 590px) {
+@media only screen and (min-width: 426px) and (max-width: 590px) {
   body {
-    font-size: .3em;
+    font-size: .5em;
   }
   .purchase-button-container button  {
     font-size: 1em;
     height: 4em;
     width: 70%;
     min-width: 96px;
+  }
+  .hero-card-header-container h1 {
+    font-size: 1.2rem;
+  }
+  .hero-card-subhead-container h2 {
+    font-size: 1.2rem;
+  }
+  .hero-card-button-container button {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .hero-dash {
+    height: .4em;
+  }
+  .info-one-header-container2 h3 {
+    min-width: 300px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+  .hero-card-header-container {
+    width: 90%;
+  }
+  .hero-card-subhead-container {
+    width: 90%;
+  }
+  .hero-card-header-container h1 {
+    font-size: 1.2em;
+  }
+  .hero-card-subhead-container h2 {
+    font-size: 1em;
+  }
+  .info-one-header-container {
+    flex-direction: column;
+    margin
+  }
+  .info-one-header-container2 h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .info-one-text1-container h4 {
+    font-size: 1.5em;
+  }
+  .info-one-text1-container p {
+    font-size: 1.2em;
+  }
+  .info-one-shield-container img {
+    height: 5em;
+    margin-bottom: 1em;
+  }
+  .hero-card {
+    width: 90%;
+    /* border-radius: 0; */
+    opacity: 70%;
+  }
+  .customer-info-card-container {
+    width: 90%;
+  }
+  .info-one-header-container {
+    width: 90%;
+  }
+  .info-one-text-container {
+    width: 85%;
+  }
+  .hero-card-button-container button {
+    font-size: 1em;
+    width: 60%;
+    min-width: 125px;
+  }
+  .hero-dash {
+    height: .3em;
+  }
+  .info-one-header-dash-container {
+    width: 85%;
   }
 }
 

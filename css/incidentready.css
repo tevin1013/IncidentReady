@@ -470,13 +470,13 @@ u:hover {
   }
 }
 
-@media screen and (min-width: 1680px) and (max-width: 2560px) {
-  body {
-    font-size: 1.3rem;
+@media screen and (min-width: 1680px) {
+  html {
+    font-size: 1.7rem;
   }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1193px) {
+@media screen and (min-width: 985px) and (max-width: 1193px) {
   body {
     font-size: .8rem;
   }
@@ -487,9 +487,12 @@ u:hover {
   .purchase-image-container img {
     height: 12rem;
   }
+  .customer-info-card-heading-container {
+    min-width: 743px;
+  }
 }
 
-@media screen and (min-width: 720px) and (max-width: 950px) {
+@media screen and (min-width: 720px) and (max-width: 985px) {
   body {
     font-size: .6rem;
   }
@@ -533,8 +536,21 @@ u:hover {
   .input-container {
     height: 50%;
   }
+  .customer-info-card-heading-container {
+    flex-direction: column;
+  }
+  .customer-info-card-heading-container h5 {
+    text-align: center;
+  }
+  .customer-info-card-header-image-container {
+    margin-left: 0px;
+    margin-bottom: 1rem;
+  }
+  .customer-info-card-header {
+    margin-left: 0px;
+  }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 985px) {
   .customer-info-card-bottom-container {
     flex-direction: column;
     height: 100vh;
@@ -556,6 +572,16 @@ u:hover {
   .purchase-picture-div {
     height: 35%;
     margin: 1rem 0rem;
+  }
+  .customer-info-card-header {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .customer-info-card-header h5 {
+    line-height: 2.5rem;
+  }
+  .customer-info-card-heading-container {
+    width: 100%;
   }
 
 }
@@ -604,6 +630,19 @@ u:hover {
   }
   .info-one-shield-container img {
     margin-bottom: 1rem;
+  }
+  .customer-info-card-heading-container {
+    flex-direction: column;
+  }
+  .customer-info-card-heading-container h5 {
+    text-align: center;
+  }
+  .customer-info-card-header-image-container {
+    margin-left: 0px;
+    margin-bottom: 1rem;
+  }
+  .customer-info-card-header {
+    margin-left: 0px;
   }
 }
 
@@ -656,8 +695,27 @@ u:hover {
   .info-one-shield-container img {
     margin-bottom: 1rem;
   }
+  .customer-info-card-heading-container {
+    flex-direction: column;
+  }
+  .customer-info-card-heading-container h5 {
+    text-align: center;
+  }
+  .customer-info-card-header {
+    margin-left: 0;
+  }
+  .info-one-shield-container img {
+    margin-bottom: 1rem;
+  }
+  .customer-info-card-header-image-container {
+    margin-left: 0px;
+  }
+  .customer-info-card-header-image-container {
+    margin-bottom: 1rem;
+  }
+
 }
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media screen and (min-width: 200px) and (max-width: 425px) {
   body {
     font-size: .6rem;
   }
@@ -740,93 +798,15 @@ u:hover {
     width: 100%;
     min-width: 211px;
   }
+  .customer-info-card-heading-container {
+    flex-direction: column;
+  }
+  .customer-info-card-heading-container h5 {
+    text-align: center;
+  }
+  .customer-info-card-header-image-container {
+    margin-left: 0px;
+    margin-bottom: 1rem;
+  }
 
 }
-
-
-
-@media screen and (min-width: 0px) and (max-width: 300px) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* BULLET STATEMENT CSS START */
-
-/* .info-one-bullet-statments-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: 35vh;
-  border: 2px solid aqua;
-}
-.bullet-statement-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  border: 2px solid black;
-}
-.bullet-statement {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 20%;
-  border: 2px solid blue;
-}
-.bullet-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10%;
-  height: 100%;
-  border: 2px solid red;
-}
-.bullet-image img {
-  height: 3rem;
-  width: auto;
-}
-.bullet-text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-  height: 100%;
-  border: 2px solid tomato;
-}
-.bullet-text p {
-  font-family: Poppins;
-  font-size: 1.2rem;
-  color: black;
-} */
-
-/* BULLET STATEMENT CSS END

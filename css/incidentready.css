@@ -584,9 +584,8 @@ u:hover {
 }
 
 @media screen and (max-width: 590px) {
-  /* .hero-card {
-    height: 75vh;
-  } */
+  .hero-dash {
+    width: 30%;
 }
 
 @media screen and (min-width: 590px) and (max-width: 720px) {

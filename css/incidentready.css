@@ -44,11 +44,11 @@ section.top-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100%;
   width: 100%;
   background-color: #A6E800;
   background: url("../images/power-image copy.jpg");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -59,6 +59,7 @@ section.top-section {
   flex-direction: column;
   width: 100%;
   height: 100%;
+  padding: 8% 0%;
   /* border: 2px solid darkred; */
 }
 .hero-card {
@@ -67,8 +68,8 @@ section.top-section {
   align-items: center;
   flex-direction: column;
   background-color: #4B6800;
-  height: 90%;
-  padding: 1rem 0rem;
+  height: 100%;
+  padding: 50px 0vh;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 6px;
@@ -94,6 +95,8 @@ section.top-section {
   justify-content: center;
   align-items: center;
   width: 80%;
+  height: 100%;
+  margin-bottom: 50px;
 }
 .hero-card-header-container h1 {
   font-size: 2.5rem;
@@ -109,13 +112,14 @@ section.top-section {
   height: .2rem;
   background-color: #A6E800;
   background-image: linear-gradient(to  right, #4B6800, #A6E800, #A6E800, #A6E800, #A6E800, #4B6800);
-  /* margin: .5em 0em .5em 0rem; */
+  margin-bottom: 50px;
 }
 .hero-card-subhead-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin-bottom: 50px;
 
 }
 .hero-card-subhead-container h2 {
@@ -125,7 +129,7 @@ section.top-section {
   text-align: center;
   opacity: 100%;
   font-family: PoppinsSemiBold;
-  htmleight: 3.5rem;
+  line-height: 1.5rem;
 }
 u:hover {
   cursor: pointer;
@@ -136,14 +140,16 @@ u:hover {
   align-items: center;
   width: 50%;
   height: 4rem;
+  /* margin-bottom: 5vh; */
   /* background-color: azure; */
 }
 .hero-card-button-container button {
-  width: 50%;
+  width: 80%;
   height: 100%;
   background-color: #A6E800;
   border-radius: 6px;
   border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 1.3rem;
   color: #191E0A;
   font-family: PoppinsSemiBold;
@@ -289,7 +295,7 @@ u:hover {
   justify-content: center;
   align-items: center;
   width: 75%;
-  height: 80%;
+  height: 100%;
 }
 .customer-info-card {
   display: flex;
@@ -297,7 +303,7 @@ u:hover {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 45rem;
+  height: 100%;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   background-color: #ffffff;
@@ -307,9 +313,9 @@ u:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1rem;
+  height: 100%;
   width: 90%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   /* border: 2px solid green; */
 }
 .customer-info-header-dash {
@@ -323,7 +329,7 @@ u:hover {
   justify-content: flex-start;
   align-items: center;
   width: 95%;
-  height: 20%;
+  height: 100%;
   margin-bottom: 1rem;
   /* border: 2px solid blue; */
 }
@@ -360,7 +366,7 @@ u:hover {
   justify-content: space-between;
   align-items: center;
   width: 95%;
-  height: 80%;
+  height: 100%;
   /* border: 2px solid green; */
 }
 .customer-info-input-div {
@@ -370,6 +376,7 @@ u:hover {
   flex-direction: column;
   width: 50%;
   height: 100%;
+  margin-bottom: 50px;
   /* border: 2px solid orange; */
 }
 .input-container {
@@ -377,8 +384,8 @@ u:hover {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 80%;
-  height: 75%;
+  width: 90%;
+  height: 350px;
   /* border: 2px solid aqua; */
 }
 .input-container input {
@@ -405,26 +412,27 @@ u:hover {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 75%;
+  height: 100%;
   /* border: 2px solid green; */
 }
 .purchase-image-container img {
   width: auto;
-  height: 17rem;
+  height: 15rem;
   -webkit-filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.2));
   filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.2));
+  /* transform: translateY(-10vh); */
 }
 .purchase-button-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 80%;
-  height: 25%;
+  width: 90%;
+  height: 65px;
   /* border: 2px solid black; */
 }
-.purchase-button-container button {
+.purchase-button-container input {
   width: 60%;
-  height: 50%;
+  height: 100%;
   background-color: #4B6800;
   border: none;
   font-size: 1.2rem;
@@ -433,35 +441,12 @@ u:hover {
   transition: all 0.2s ease 0s;
   cursor: pointer;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
 }
-.purchase-button-container button:hover {
+.purchase-button-container input:hover {
   background-color: #191E0A;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (min-width: 2560px) and (max-width: 2900px) {
@@ -480,7 +465,7 @@ u:hover {
   body {
     font-size: .8rem;
   }
-  .purchase-button-container button {
+  .purchase-button-container input {
     min-width: 210px;
     width: 80%;
   }
@@ -499,11 +484,6 @@ u:hover {
   .info-one-header-container {
     min-width: 682px;
   }
-  .purchase-button-container button {
-    min-width: 136px;
-    min-width: 213px;
-    width: 80%;
-  }
   .hero-card-header-container h1 {
     font-size: 2rem;
   }
@@ -516,25 +496,15 @@ u:hover {
   .hero-dash {
     height: .2rem;
   }
-  .purchase-image-container img {
-    height: 12rem;
-  }
   .customer-info-card-bottom-container {
     flex-direction: column;
-    height: 80vh;
-  }
-  .customer-info-input-div {
-    width: 100%;
+    height: 100%;
   }
   .customer-info-card {
     height: 100%;
   }
   .purchase-picture-div {
-    height: auto;
-    margin: 1rem 0rem;
-  }
-  .input-container {
-    height: 50%;
+    /* height: 6rem; */
   }
   .customer-info-card-heading-container {
     flex-direction: column;
@@ -550,20 +520,24 @@ u:hover {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 720px) {
+  .purchase-button-container input {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 985px) {
+
   .customer-info-card-bottom-container {
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
   }
   .customer-info-input-div {
     width: 100%;
     height: 60%;
     justify-content: space-around;
   }
-  .input-container {
-    height: 75%;
-  }
   .purchase-button-container {
+    width: 100%;
     justify-content: center;
   }
   .customer-info-card {
@@ -571,7 +545,12 @@ u:hover {
   }
   .purchase-picture-div {
     height: 35%;
-    margin: 1rem 0rem;
+    width: 100%;
+    margin: 2rem 0rem;
+  }
+  .purchase-image-container img {
+    height: 150px;
+    width: auto;
   }
   .customer-info-card-header {
     margin-left: 0px;
@@ -583,7 +562,31 @@ u:hover {
   .customer-info-card-heading-container {
     width: 100%;
   }
+  .purchase-image-container img {
+    transform: translateY(0vh);
+  }
 
+}
+
+@media screen and (max-width: 385px) {
+
+  .hero-card-header-container {
+    margin-bottom: 5vh;
+  }
+  .hero-dash {
+    margin-bottom: 5vh;
+
+  }
+  .hero-card-subhead-container {
+    margin-bottom: 5vh;
+
+  }
+}
+
+@media screen and (max-width: 590px) {
+  /* .hero-card {
+    height: 75vh;
+  } */
 }
 
 @media screen and (min-width: 590px) and (max-width: 720px) {
@@ -592,9 +595,6 @@ u:hover {
   }
   .customer-info-card-heading-container h5 {
     min-width: 318px;
-  }
-  .purchase-image-container img {
-    height: 12rem;
   }
   .purchase-button-container button  {
     min-width: 220px;
@@ -667,14 +667,11 @@ u:hover {
     width: 80%;
 
   }
-  .hero-dash {
+  /* .hero-dash {
     height: .2rem;
-  }
+  } */
   .info-one-header-container2 h3 {
     min-width: 300px;
-  }
-  .purchase-image-container img {
-    height: 11rem;
   }
   .input-container {
     width: 100%;
@@ -720,13 +717,13 @@ u:hover {
     font-size: .6rem;
   }
   .hero-card-header-container {
-    width: 90%;
+    width: 80%;
   }
   .hero-card-subhead-container {
     width: 80%;
   }
   .hero-card-header-container h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .hero-card-subhead-container h2 {
     font-size: 1.2rem;
@@ -755,8 +752,6 @@ u:hover {
     margin-bottom: 1rem;
   }
   .hero-card {
-    height: 90%;
-    width: 90%;
     opacity: 80%;
   }
   .customer-info-card-container {
@@ -791,13 +786,7 @@ u:hover {
   .input-container {
     width: 100%;
   }
-  .purchase-image-container img {
-    height: 10rem;
-  }
-  .purchase-button-container button {
-    width: 100%;
-    min-width: 211px;
-  }
+
   .customer-info-card-heading-container {
     flex-direction: column;
   }

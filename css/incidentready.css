@@ -569,7 +569,9 @@ u:hover {
 }
 
 @media screen and (max-width: 385px) {
-
+  .hero-card {
+    width: 87%;
+  }
   .hero-card-header-container {
     margin-bottom: 5vh;
   }

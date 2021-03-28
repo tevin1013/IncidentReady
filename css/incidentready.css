@@ -75,6 +75,8 @@ body {
 #submit-btn {
   background-color: #4B6800;
   border: none;
+  display: flex;
+  justify-content: center;
 }
 #submit-btn:hover {
   background-color: #191E0A;
